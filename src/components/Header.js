@@ -12,8 +12,8 @@ const Header = () => {
                 <h4>TV & AV</h4>
                 <h4>Home Appliances</h4>
                 <h4>Computing</h4>
-                <h4>Displays</h4>
-                <h4>Offers</h4>
+                {/* <h4>Displays</h4>
+                <h4>Offers</h4> */}
             </div>
             {/* <div>
                 <h4>Explore</h4>
