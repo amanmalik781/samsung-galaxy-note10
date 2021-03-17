@@ -30,20 +30,21 @@ const Footer = () => {
                 <div>
                     <h6><strong>India/English</strong></h6>
                     <h6>|</h6>
-                    <h6>Accessiblity Help</h6>
-                    <h6>Privacy</h6>
-                    <h6>Legal</h6>
+                    <h6>Legal Statement</h6>
+                    <h6>Privacy Policy</h6>
+                    {/* <h6>Legal</h6>
                     <h6>CSR Policy</h6>
-                    <h6>Sitemap</h6>
+                    <h6>Sitemap</h6> */}
                 </div>
                 <Icons>
                     <h6>Stay in the loop? </h6>
-                    <FacebookIcon />
-                    <TwitterIcon />
-                    <InstagramIcon />
-                    <YouTubeIcon />
-                    <LinkedInIcon />
-                    <WhatsAppIcon />
+                    <a href="https://www.facebook.com/SamsungIndia" target="_blank"><FacebookIcon /></a>
+                    <a href="https://twitter.com/samsungindia" target="_blank"><TwitterIcon /></a>
+                    <a href="https://www.instagram.com/samsungindia/" target="_blank"><InstagramIcon /></a>
+                    <a href="https://www.youtube.com/SamsungMobileIndia" target="_blank"><YouTubeIcon /></a>
+                    <a href="https://www.linkedin.com/company/samsung-india" target="_blank"><LinkedInIcon /></a>
+                    <a href="https://bit.ly/31QN4lI" target="_blank"><WhatsAppIcon /></a>
+
                 </Icons>
             </FooterLinks>
         </FooterContainer>
@@ -68,7 +69,8 @@ flex-direction:row;
 align-items:center;
 justify-content:space-between;
 div{
-    width:28vw;
+    min-width:28vw;
+    max-width:50vw;
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -79,7 +81,22 @@ const Icons = styled.div`
 display:flex;
 flex-direction:row;
 align-items:center;
-width:15vw;
+min-width:15vw;
+max-width:50vw;
 justify-content:space-between;
+a{
+    :link{
+        color:black;
+    }
+    :visited {
+  color:black;
+}
+:hover {
+    color:black;
+}
+:active {
+    color:black;
+}
+}
 `;
 

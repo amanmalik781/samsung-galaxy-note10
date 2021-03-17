@@ -15,11 +15,11 @@ const Header = () => {
                 <h4>Displays</h4>
                 <h4>Offers</h4>
             </div>
-            <div>
+            {/* <div>
                 <h4>Explore</h4>
                 <h4>Support</h4>
                 <h4>Business</h4>
-            </div>
+            </div> */}
             <div>
                 <SearchIcon fontSize='large' />
                 <ShoppingCartIcon fontSize='large' />
